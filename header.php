@@ -36,6 +36,7 @@
 			<?php else : ?>
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php endif; ?>
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sherlock.jpeg" alt="" width="" height="" />
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 		</div><!-- .site-branding -->
 
