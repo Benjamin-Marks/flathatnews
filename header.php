@@ -29,6 +29,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
+			<img src="<?php echo http://wmpeople.wm.edu/img/theme3/theme3.jpg?>">
 			<?php if ( is_front_page() && is_home() ) : ?>
 				<h2>Freedom of the press!</h2>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
