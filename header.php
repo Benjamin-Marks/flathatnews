@@ -16,13 +16,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/style.css" />
-<h1> I found BEN! AND LOOK! HE's PETTING A SHEEP! </h1>
-    <img src=https://www.facebook.com/photo.php?fbid=10206732164090544&set=t.1612518253&type=3&theater />
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/fonts/icomoon.css" />
+
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+<span class="icon-twitter">Twitter</span>
+<h1> I found BEN! AND LOOK! HE's PETTING A SHEEP! </h1>
+    <img src="https://www.facebook.com/photo.php?fbid=10206732164090544&set=t.1612518253&type=3&theater" />
 <h1>TEST TEXT</h1>
 <h1>SO MUCH TEST TEXT</h1>
 <div id="page" class="hfeed site">

@@ -23,6 +23,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
+# Fonts
 # Normalize
 # Typography
 # Elements
@@ -44,6 +45,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+@font-face {
+	font-family:'icomoon';
+	src:url('fonts/icomoon.eot?2z5on1');
+	src:url('fonts/icomoon.eot?#iefix2z5on1') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?2z5on1') format('truetype'),
+		url('fonts/icomoon.woff?2z5on1') format('woff'),
+		url('fonts/icomoon.svg?2z5on1#icomoon') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
 
 /*--------------------------------------------------------------
 # Normalize
