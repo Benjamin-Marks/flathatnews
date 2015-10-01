@@ -54,16 +54,12 @@
 					<input type="submit" class="search" id="searchsubmit" value="Search" />
 				 </form>
 			   </div>
-			  <a id="tag-home" href="http://yaledailynews.com">Home</a>
-			  <a id="tag-opinion" href="http://yaledailynews.com/blog/category/opinion">Opinion</a>
-			  <a id="tag-university" href="http://yaledailynews.com/blog/category/university">University</a>
-			  <a id="tag-city" href="http://yaledailynews.com/blog/category/city">City</a>
-			  <a id="tag-sports" href="http://yaledailynews.com/blog/category/sports">Sports</a>
-			  <a id="tag-scitech" href="http://yaledailynews.com/blog/category/sci-tech">Scitech</a>
-			  <a id="tag-culture" href="http://yaledailynews.com/blog/category/culture">Culture</a>
-			  <a id="tag-ytv" href="https://www.youtube.com/user/ydnmultimedia/videos">YTV</a>
-			  <a id="tag-weekend" href="http://yaledailynews.com/blog/category/wknd">Wknd</a>
-			  <a id="tag-magazine" href="http://yaledailynews.com/blog/category/mag">Mag</a>
+			  <a id="tag-home" href="flathatnews.com">Home</a>
+			  <a id="tag-news" href="http://yaledailynews.com/blog/category/opinion">News</a>
+			  <a id="tag-variety" href="http://yaledailynews.com/blog/category/university">Variety</a>
+			  <a id="tag-sports" href="http://yaledailynews.com/blog/category/city">Sports</a>
+			  <a id="tag-blogs" href="http://yaledailynews.com/blog/category/sports">Blogs</a>
+			  <a id="tag-opinions" href="http://yaledailynews.com/blog/category/sci-tech">Opinions</a>
 			</nav>
 			</header>
 			
