@@ -23,8 +23,7 @@
 
 <body <?php body_class(); ?>>
 <span class="icon-twitter">Twitter</span>
-<h1> I found BEN! AND LOOK! HE's PETTING A SHEEP! </h1>
-    <img src="https://www.facebook.com/photo.php?fbid=10206732164090544&set=t.1612518253&type=3&theater" />
+    <img src=file:///C:/Users/Andrew/Documents/Websites/local.wordpress.dev/wp-content/themes/flathatnews/img/logo.png />
 <h1>TEST TEXT</h1>
 <h1>SO MUCH TEST TEXT</h1>
 <div id="page" class="hfeed site">
