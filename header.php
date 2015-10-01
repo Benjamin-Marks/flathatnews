@@ -44,6 +44,28 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<!-- MENU INFORMATION WILL GO HERE -->
+			<header id="mobile-header">
+			<nav id="mobile-navigation">
+			  <a class = "fa fa-times fa-lg" id="nav-close-button"></a>
+			  <i class="fa fa-search first-row search"></i>
+			   <div id="nav-search-left" class="search"> 
+				 <form class="search-box search" action="flathatnews.com" autofocus>
+					 <input type="text" class="search" placeholder="Search articles and authors" value="" name="s" id="s" />
+					<input type="submit" class="search" id="searchsubmit" value="Search" />
+				 </form>
+			   </div>
+			  <a id="tag-home" href="http://yaledailynews.com">Home</a>
+			  <a id="tag-opinion" href="http://yaledailynews.com/blog/category/opinion">Opinion</a>
+			  <a id="tag-university" href="http://yaledailynews.com/blog/category/university">University</a>
+			  <a id="tag-city" href="http://yaledailynews.com/blog/category/city">City</a>
+			  <a id="tag-sports" href="http://yaledailynews.com/blog/category/sports">Sports</a>
+			  <a id="tag-scitech" href="http://yaledailynews.com/blog/category/sci-tech">Scitech</a>
+			  <a id="tag-culture" href="http://yaledailynews.com/blog/category/culture">Culture</a>
+			  <a id="tag-ytv" href="https://www.youtube.com/user/ydnmultimedia/videos">YTV</a>
+			  <a id="tag-weekend" href="http://yaledailynews.com/blog/category/wknd">Wknd</a>
+			  <a id="tag-magazine" href="http://yaledailynews.com/blog/category/mag">Mag</a>
+			</nav>
+			</header>
 			
 
 
