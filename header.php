@@ -46,7 +46,7 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<!-- MENU INFORMATION WILL GO HERE -->
-			
+			<?php /*
 			<header id="mobile-header">
 			<nav id="mobile-navigation">
 			   <div id="nav-search-left" class="search"> 
@@ -55,6 +55,8 @@
 					 <input type="submit" class="search" id="searchsubmit" value="Search" />
 				 </form>
 			   </div>
+			*/?>
+			
 			   <ul id="mobile-menu">
 				  <li><a id="tag-home" href="http://flathatnews.com/">Home</a></li>
 				  <li><a id="tag-news" href="http://flathatnews.com/category/news/">News</a></li>
@@ -62,9 +64,12 @@
 				  <li><a id="tag-sports" href="http://flathatnews.com/category/sports/">Sports</a></li>
 				  <li><a id="tag-blogs" href="http://flathatnews.com/category/blogs/">Blogs</a></li>
 				  <li><a id="tag-opinions" href="http://flathatnews.com/category/opinions/">Opinions</a></li>
-			  </ul>
+			   </ul>
+			<?php /*
 			</nav>
 			</header>
+			*/?>
+		
 			
 
 
