@@ -32,7 +32,7 @@
 
 <body <?php body_class(); ?>>
 <span class="icon-twitter">Twitter</span>
-    <img src=file:///C:/Users/Andrew/Documents/Websites/local.wordpress.dev/wp-content/themes/flathatnews/img/logo.png />
+    <img src="<?php echo get_template_directory_uri();?>/img/logo.png" />
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'fhnews' ); ?></a>
 
