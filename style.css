@@ -116,7 +116,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		
 		.toggle-nav:hover, .toggle-nav.active {
 			text-decoration:none;
-			color:#FFFFFF;
+			color:#444444;
 		}
 		
 		.search-form {

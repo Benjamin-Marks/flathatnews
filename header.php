@@ -17,28 +17,17 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/fonts/icomoon.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-	$(document).ready(function() {
-		$('.toggle-nav').click(function(e) {
-			$(this).toggleClass('active');
-			$('.menu ul').toggleClass('active');
-	 
-			e.preventDefault();
-		});
-	});
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" />
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<span class="icon-twitter">Twitter</span>
     <img src="<?php echo get_template_directory_uri();?>/img/logo.png" />
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'fhnews' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<img src=<?php echo "http://wmpeople.wm.edu/img/theme3/theme3.jpg"?>>
 			<?php if ( is_front_page() && is_home() ) : ?>
 				
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -70,7 +59,17 @@
 			
 
 
-
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('.toggle-nav').click(function(e) {
+			alert("Event received");
+			jQuery(this).toggleClass('active');
+			jQuery('.mobile-menu ul').toggleClass('active');
+	 
+			e.preventDefault();
+		});
+	});
+</script>
 			<?php /*
 
 			IGNORE ME 
