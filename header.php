@@ -50,9 +50,9 @@
 			<header id="mobile-header">
 			<nav id="mobile-navigation">
 			   <div id="nav-search-left" class="search"> 
-				 <form class="search-box search" action="flathatnews.com" autofocus>
+				 <form class="search-box search" action="http://flathatnews.com" autofocus>
 					 <input type="text" class="search" placeholder="Search articles and authors" value="" name="s" id="s" />
-					<input type="submit" class="search" id="searchsubmit" value="Search" />
+					 <input type="submit" class="search" id="searchsubmit" value="Search" />
 				 </form>
 			   </div>
 			   <ul id="mobile-menu">
