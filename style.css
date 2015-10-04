@@ -597,24 +597,30 @@ textarea {
 	clear: both;
 	width: 100%;
 }
-	
-nav .container{
-color: #808080;
-font-size: 20px;
-font-weight: bold;
-padding: 14px 10px;   
-text-transform: uppercase;
+.desktop-menu container{
+  color: #808080;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 14px 10px;   
+  text-transform: uppercase;
+  
 }      
-nav {
-display: table;
-height: 87px;
-width: 100%;
+.desktop-menu container{
+  display: table;
+  height: 87px;
+  width: 100%;
 }
-nav li {
+.desktop-menu li {
 display: inline;
 line-height: 70px;
 text-align: center;
 border-right: 1px solid #fff;
+    
+}
+.desktop-menu ul li a {
+  color: #808080;
+}	
+
 }
 
 
