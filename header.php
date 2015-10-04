@@ -12,7 +12,6 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <h1>h</h1>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -23,7 +22,7 @@
 		display:none;
 	}
 
-	@media screen and (max-width: 700px) {
+	@media all and (min-width: 1px) and (max-width:700px) {
 	
 		.menu {
 			position:relative;
