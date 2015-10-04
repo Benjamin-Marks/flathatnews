@@ -91,8 +91,6 @@
 <body <?php body_class(); ?>>
 <span class="icon-twitter">Twitter</span>
     <img src=file:///C:/Users/Andrew/Documents/Websites/local.wordpress.dev/wp-content/themes/flathatnews/img/logo.png />
-<h1>TEST TEXT</h1>
-<h1>SO MUCH TEST TEXT</h1>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'fhnews' ); ?></a>
 
