@@ -83,7 +83,7 @@
 		</nav><!-- #site-navigation -->
 		<html>
 			<body>
-  			<div class="nav"></div>
+  			<div class="desktop-menu"></div>
 			 <div class="container"></div>
 			<ul>
 			<li><a href="#">Home</a></li>
