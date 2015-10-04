@@ -155,28 +155,7 @@
 			</form> 
 			</body>
 			</html>
-		<style>
-			.nav .container{
-  			color: #808080;
-  			font-size: 20px;
-  			font-weight: bold;
-	 		padding: 14px 10px;   
-  			text-transform: uppercase;
-  
-			}      
-			.nav {
-    			display: table;
-    			height: 87px;
-    			width: 100%;
-			}
-
-			.nav li {
-    			display: inline;
-    			line-height: 70px;
-    			text-align: center;
-    			border-right: 1px solid #fff;
-   			}
-   			</style>
+	
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
