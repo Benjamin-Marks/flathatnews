@@ -80,10 +80,9 @@
 
 			*/?>
 		</nav><!-- #site-navigation -->
-		<html>
 			<body>
-  			<div class="desktop-menu"></div>
-			 <div class="container"></div>
+  			<div class="desktop-menu">
+			 <div class="container">
 			<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">News</a></li>
@@ -96,8 +95,9 @@
 			<input name="search" type="text" size="40" maxlength="100" />
 			<input type="submit" name="submit" value="Search" />
 			</form> 
+			</div
+			</div>
 			</body>
-			</html>
 	
 	</header><!-- #masthead -->
 
