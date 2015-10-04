@@ -17,7 +17,40 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/fonts/icomoon.css" />
+<style>
+	#mobile-navigation[role="custom-dropdown"] {
+	  label {
+		display: none;
+	  }
+	@media screen and (max-width: 40em) {
+	  #mobile-navigation[role="custom-dropdown"] {
+		#mobile-menu {
+		  display: none;
+		  height: 100%;
+		}
 
+		label {
+		  position: relative;
+		  display: block;
+		  width: 100%;
+		}
+
+		label:after {
+			position: absolute;
+			content: "\2261";
+		}
+		
+		input:checked ~ ul {
+		  display: block;
+		
+		  > li {
+			width: 100%;
+		  }        
+		}
+	  }
+    }
+}
+</style>
 <?php wp_head(); ?>
 </head>
 
@@ -44,22 +77,23 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<!-- MENU INFORMATION WILL GO HERE -->
+			
 			<header id="mobile-header">
 			<nav id="mobile-navigation">
-			  <a class = "fa fa-times fa-lg" id="nav-close-button"></a>
-			  <i class="fa fa-search first-row search"></i>
 			   <div id="nav-search-left" class="search"> 
 				 <form class="search-box search" action="flathatnews.com" autofocus>
 					 <input type="text" class="search" placeholder="Search articles and authors" value="" name="s" id="s" />
 					<input type="submit" class="search" id="searchsubmit" value="Search" />
 				 </form>
 			   </div>
-			  <a id="tag-home" href="http://flathatnews.com/">Home</a>
-			  <a id="tag-news" href="http://flathatnews.com/category/news/">News</a>
-			  <a id="tag-variety" href="http://flathatnews.com/category/variety/">Variety</a>
-			  <a id="tag-sports" href="http://flathatnews.com/category/sports/">Sports</a>
-			  <a id="tag-blogs" href="http://flathatnews.com/category/blogs/">Blogs</a>
-			  <a id="tag-opinions" href="http://flathatnews.com/category/opinions/">Opinions</a>
+			   <ul id="mobile-menu">
+				  <li><a id="tag-home" href="http://flathatnews.com/">Home</a></li>
+				  <li><a id="tag-news" href="http://flathatnews.com/category/news/">News</a></li>
+				  <li><a id="tag-variety" href="http://flathatnews.com/category/variety/">Variety</a></li>
+				  <li><a id="tag-sports" href="http://flathatnews.com/category/sports/">Sports</a></li>
+				  <li><a id="tag-blogs" href="http://flathatnews.com/category/blogs/">Blogs</a></li>
+				  <li><a id="tag-opinions" href="http://flathatnews.com/category/opinions/">Opinions</a></li>
+			  </ul>
 			</nav>
 			</header>
 			
