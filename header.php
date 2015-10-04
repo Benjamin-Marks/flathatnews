@@ -116,7 +116,7 @@
 					<li><a href="http://flathatnews.com/category/opinions/">Opinions</a></li>
 				</ul>
 				
-				<a class="toggle-nav" href="">&#9776;</a>
+				<a class="toggle-nav" href="#">&#9776;</a>
 				
 				<form class="search-form">
 					<input type="text" placeholder="search for articles">
