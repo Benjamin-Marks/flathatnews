@@ -18,38 +18,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/fonts/icomoon.css" />
 <style>
-	#mobile-navigation[role="custom-dropdown"] {
-	  label {
-		display: none;
-	  }
-	@media screen and (max-width: 40em) {
-	  #mobile-navigation[role="custom-dropdown"] {
-		#mobile-menu {
-		  display: none;
-		  height: 100%;
-		}
 
-		label {
-		  position: relative;
-		  display: block;
-		  width: 100%;
-		}
-
-		label:after {
-			position: absolute;
-			content: "\2261";
-		}
-		
-		input:checked ~ ul {
-		  display: block;
-		
-		  > li {
-			width: 100%;
-		  }        
-		}
-	  }
-    }
-}
 </style>
 <?php wp_head(); ?>
 </head>
