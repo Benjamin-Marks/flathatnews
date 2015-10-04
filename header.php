@@ -54,12 +54,12 @@
 					<input type="submit" class="search" id="searchsubmit" value="Search" />
 				 </form>
 			   </div>
-			  <a id="tag-home" href="flathatnews.com">Home</a>
-			  <a id="tag-news" href="http://yaledailynews.com/blog/category/opinion">News</a>
-			  <a id="tag-variety" href="http://yaledailynews.com/blog/category/university">Variety</a>
-			  <a id="tag-sports" href="http://yaledailynews.com/blog/category/city">Sports</a>
-			  <a id="tag-blogs" href="http://yaledailynews.com/blog/category/sports">Blogs</a>
-			  <a id="tag-opinions" href="http://yaledailynews.com/blog/category/sci-tech">Opinions</a>
+			  <a id="tag-home" href="http://flathatnews.com/">Home</a>
+			  <a id="tag-news" href="http://flathatnews.com/category/news/">News</a>
+			  <a id="tag-variety" href="http://flathatnews.com/category/variety/">Variety</a>
+			  <a id="tag-sports" href="http://flathatnews.com/category/sports/">Sports</a>
+			  <a id="tag-blogs" href="http://flathatnews.com/category/blogs/">Blogs</a>
+			  <a id="tag-opinions" href="http://flathatnews.com/category/opinions/">Opinions</a>
 			</nav>
 			</header>
 			
