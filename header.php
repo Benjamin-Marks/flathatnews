@@ -48,21 +48,19 @@
 		}
 
 		.toggle-nav {
-			padding:20px;
+			padding:3px;
 			float:left;
 			display:inline-block;
-			box-shadow:0px 1px 1px rgba(0,0,0,0.15);
 			border-radius:3px;
-			background:#303030;
-			text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-			color:#777;
+			background:#006600;
+			color:#FFD700;
 			font-size:20px;
 			transition:color linear 0.15s;
 		}
 		
 		.toggle-nav:hover, .toggle-nav.active {
 			text-decoration:none;
-			color:#66a992;
+			color:#FFFFFF;
 		}
 		
 		.search-form {
@@ -98,12 +96,11 @@
 		<div class="site-branding">
 			<img src=<?php echo "http://wmpeople.wm.edu/img/theme3/theme3.jpg"?>>
 			<?php if ( is_front_page() && is_home() ) : ?>
-				<h2>Freedom of the press!</h2>
+				
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php endif; ?>
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sherlock.jpeg" alt="" width="" height="" />
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 		</div><!-- .site-branding -->
 
