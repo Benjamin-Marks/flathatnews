@@ -17,62 +17,6 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/fonts/icomoon.css" />
-<style>
-	.toggle-nav {
-		display:none;
-	}
-
-	@media all and (min-width: 1px) and (max-width:700px) {
-	
-		.menu {
-			position:relative;
-			display:inline-block;
-		}
-
-		.menu ul.active {
-			display:none;
-		}
-
-		.menu ul:after {
-			width:0px;
-			height:0px;
-			position:absolute;
-			top:0%
-			left:22px;
-			content:'';
-			transform:translate(0%, -100%);
-		}
-
-		.menu a {
-			display:block;
-		}
-
-		.toggle-nav {
-			padding:5px;
-			float:left;
-			display:inline-block;
-			border-radius:3px;
-			background:#006600;
-			color:#FFD700;
-			font-size:20px;
-			transition:color linear 0.15s;
-		}
-		
-		.toggle-nav:hover, .toggle-nav.active {
-			text-decoration:none;
-			color:#FFFFFF;
-		}
-		
-		.search-form {
-			margin:12px 0px 0px 20px;
-			float:left;
-		}
- 
-		.search-form input {
-			box-shadow:-1px 1px 2px rgba(0,0,0,0.1);
-		}
-	}
-</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
 	$(document).ready(function() {
 		$('.toggle-nav').click(function(e) {
