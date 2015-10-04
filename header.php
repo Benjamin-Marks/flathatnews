@@ -76,6 +76,24 @@
 
 			*/?>
 		</nav><!-- #site-navigation -->
+		<html>
+			<body>
+  			<div class="nav"></div>
+			 <div class="container"></div>
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Opinions</a></li>
+			<li><a href="#">Variety</a></li>
+			<li><a href="#">Sports</a></li>
+			<li><a href="#">Videos</a></li>
+			</ul>
+			<form name="form1" method="post" action="searchresults.php">
+			<input name="search" type="text" size="40" maxlength="100" />
+			<input type="submit" name="submit" value="Search" />
+			</form> 
+			</body>
+			</html>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
