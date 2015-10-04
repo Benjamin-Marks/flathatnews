@@ -75,6 +75,16 @@
 		}
 	}
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+	$(document).ready(function() {
+		$('.toggle-nav').click(function(e) {
+			$(this).toggleClass('active');
+			$('.menu ul').toggleClass('active');
+	 
+			e.preventDefault();
+		});
+	});
+</script>
 <?php wp_head(); ?>
 </head>
 
