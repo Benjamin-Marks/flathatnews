@@ -48,7 +48,7 @@
 		}
 
 		.toggle-nav {
-			padding:3px;
+			padding:5px;
 			float:left;
 			display:inline-block;
 			border-radius:3px;
