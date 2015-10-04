@@ -62,23 +62,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	
 	@media all and (min-width:701px) {
-		.menu {
+		.mobile-menu {
 			display:none;
 		}
 	}
     
 	@media all and (min-width: 1px) and (max-width:700px) {
 	
-		.menu {
+		.mobile-menu {
 			position:relative;
 			display:inline-block;
 		}
 
-		.menu ul.active {
+		.mobile-menu ul.active {
 			display:none;
 		}
 
-		.menu ul:after {
+		.mobile-menu ul:after {
 			width:0px;
 			height:0px;
 			position:absolute;
@@ -88,7 +88,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 			transform:translate(0%, -100%);
 		}
 
-		.menu a {
+		.mobile-menu a {
 			display:block;
 		}
 

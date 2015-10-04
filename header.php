@@ -50,7 +50,7 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<!-- MENU INFORMATION WILL GO HERE -->
-			<nav class="menu">
+			<nav class="mobile-menu">
 				<ul class="active">
 					<li><a href="http://flathatnews.com/">Home</a></li>
 					<li><a href="http://flathatnews.com/category/news/">News</a></li>
