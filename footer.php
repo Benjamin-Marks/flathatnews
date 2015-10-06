@@ -15,9 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fhnews' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'fhnews' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'fhnews' ), 'fhnews', '<a href="https://github.com/benjamin-marks" rel="designer">Benjamin Marks</a>' ); ?>
+			<p>Footer Information</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

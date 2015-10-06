@@ -38,8 +38,6 @@ get_header(); ?>
 					 */
 					get_template_part( 'template-parts/content', get_post_format() );
 				?>
-<h1> I found BEN! AND LOOK! HE's PETTING A SHEEP! </h1>
-    <img src=https://www.facebook.com/photo.php?fbid=10206732164090544&set=t.1612518253&type=3&theater />
 			<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>

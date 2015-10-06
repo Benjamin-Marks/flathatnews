@@ -27,77 +27,49 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'fhnews' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php if ( is_front_page() && is_home() ) : ?>
-				
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php endif; ?>
-			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<!-- MENU INFORMATION WILL GO HERE -->
-			<nav class="mobile-menu">
-				<ul class="active">
-					<li><a href="http://flathatnews.com/">Home</a></li>
-					<li><a href="http://flathatnews.com/category/news/">News</a></li>
-					<li><a href="http://flathatnews.com/category/variety/">Variety</a></li>
-					<li><a href="http://flathatnews.com/category/sports/">Sports</a></li>
-					<li><a href="http://flathatnews.com/category/blogs/">Blogs</a></li>
-					<li><a href="http://flathatnews.com/category/opinions/">Opinions</a></li>
-				</ul>
-				
-				<a class="toggle-nav" href="#">&#9776;</a>
-				
-				<form class="search-form">
-					<input type="text" placeholder="search for articles">
-					<button>Search</button>
-				</form>
-			</nav>
-			
-
-
-<script type="text/javascript">
-	jQuery(document).ready(function() {
-		jQuery('.toggle-nav').click(function(e) {
-			alert("Event received");
-			jQuery(this).toggleClass('active');
-			jQuery('.mobile-menu ul').toggleClass('active');
-	 
-			e.preventDefault();
-		});
-	});
-</script>
-			<?php /*
-
-			IGNORE ME 
-
-			
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'fhnews' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-
-			*/?>
-		</nav><!-- #site-navigation -->
-			<body>
-  			<div class="desktop-menu">
-			 <div class="container">
-			<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">News</a></li>
-			<li><a href="#">Opinions</a></li>
-			<li><a href="#">Variety</a></li>
-			<li><a href="#">Sports</a></li>
-			<li><a href="#">Videos</a></li>
+		<nav class="mobile-menu" role="navigation">
+			<ul class="active">
+				<li><a href="http://flathatnews.com/">Home</a></li>
+				<li><a href="http://flathatnews.com/category/news/">News</a></li>
+				<li><a href="http://flathatnews.com/category/variety/">Variety</a></li>
+				<li><a href="http://flathatnews.com/category/sports/">Sports</a></li>
+				<li><a href="http://flathatnews.com/category/blogs/">Blogs</a></li>
+				<li><a href="http://flathatnews.com/category/opinions/">Opinions</a></li>
 			</ul>
-			<form name="form1" method="post" action="searchresults.php">
-			<input name="search" type="text" size="40" maxlength="100" />
-			<input type="submit" name="submit" value="Search" />
-			</form> 
-			</div
+			<a class="toggle-nav" href="#">&#9776;</a>
+			<form class="search-form">
+				<input type="text" placeholder="search for articles">
+				<button>Search</button>
+			</form>
+		</nav>
+
+  		<nav class="desktop-menu" role="navigation">
+			<div class="container">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Opinions</a></li>
+					<li><a href="#">Variety</a></li>
+					<li><a href="#">Sports</a></li>
+					<li><a href="#">Videos</a></li>
+				</ul>
+				<form name="form1" method="post" action="searchresults.php">
+					<input name="search" type="text" size="40" maxlength="100" />
+					<input type="submit" name="submit" value="Search" />
+				</form> 
 			</div>
-			</body>
+		</nav>
+
+		<script type="text/javascript">
+			//Script for loading the mobile dropdown menu
+			jQuery(document).ready(function() {
+				jQuery('.toggle-nav').click(function(e) {
+					jQuery(this).toggleClass('active');
+					jQuery('.mobile-menu ul').toggleClass('active');
+	 				e.preventDefault();
+				});
+			});
+		</script>
 	
 	</header><!-- #masthead -->
 

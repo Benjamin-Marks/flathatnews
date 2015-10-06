@@ -24,6 +24,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Fonts
+# Masthead Menus TODO: Reorganize this 
 # Normalize
 # Typography
 # Elements
@@ -59,25 +60,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	font-weight:normal;
 	font-style:normal;
 }
-
+/*--------------------------------------------------------------
+# Masthead Menus
+--------------------------------------------------------------*/
 	
 	@media all and (min-width:701px) {
 		.mobile-menu {
 			display:none;
 		}
 	}
-<<<<<<< Updated upstream
-    
-=======
 
-	@media all and (min-width: 701px) {
-		.menu {
-			display:none;
-		}
-
-	}
-
->>>>>>> Stashed changes
 	@media all and (min-width: 1px) and (max-width:700px) {
 	
 		.mobile-menu {
