@@ -590,14 +590,6 @@ textarea {
 	width: 100%;
 }
 .desktop-menu container{
-  color: #808080;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 14px 10px;   
-  text-transform: uppercase;
-  
-}      
-.desktop-menu container{
   display: table;
   height: 87px;
   width: 100%;
@@ -611,8 +603,55 @@ border-right: 1px solid #fff;
 }
 .desktop-menu ul li a {
   color: #808080;
+  text-decoration: none;
+  font-family: courier new, monospace;
+  text-transform: uppercase;
+  font-variant: small-caps;
 }	
-
+.desktop-menu a:hover { 
+    color: darkgreen;
+    text-decoration:underline;
+    border:none;
+    width:32%
+}
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;    
+}
+.container-1 input#search{
+  width: 200px;
+  height: 30px;
+  background: lightgrey;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: black;
+  font-family: courier new, monospace;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 100px;
+}
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background:#ffffff;
+  }
+.container-1 {
+    display: inline;
+}
+.container-1 input#search::-webkit-input-placeholder {
+   color: darkgreen;
+}
 }
 
 
