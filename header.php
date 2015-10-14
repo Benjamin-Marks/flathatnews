@@ -53,12 +53,14 @@
 					<li><a href="#">Sports</a></li>
 					<li><a href="#">Videos</a></li>
 				</ul>
-				<form name="form1" method="post" action="searchresults.php">
-					<input name="search" type="text" size="40" maxlength="100" />
-					<input type="submit" name="submit" value="Search" />
-				</form> 
-			</div>
-		</nav>
+				 <div class="box">
+        			 <div class="container-1">
+        			 <span class="icon"><i class="fa fa-search"></i></span>
+             			<input type="search" id="search" placeholder="Search..." />
+              			</div>  
+              			</div>
+        			</div>
+				</nav>
 
 		<script type="text/javascript">
 			//Script for loading the mobile dropdown menu
