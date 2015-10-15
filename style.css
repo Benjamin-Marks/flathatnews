@@ -604,7 +604,7 @@ border-right: 1px solid #fff;
 .desktop-menu ul li a {
   color: #808080;
   text-decoration: none;
-  font-family: courier new, monospace;
+  font-family: Andale Mono, monospace;
   text-transform: uppercase;
   font-variant: small-caps;
 }	
@@ -628,7 +628,7 @@ border-right: 1px solid #fff;
   font-size: 10pt;
   float: left;
   color: black;
-  font-family: courier new, monospace;
+  font-family: Andale Mono, monospace;;
   padding-left: 45px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
