@@ -589,15 +589,18 @@ textarea {
 	clear: both;
 	width: 100%;
 }
-.desktop-menu container{
+.desktop-menu {
   display: table;
   height: 87px;
   width: 100%;
   list-style-type:none;
   height:30px;
   text-align:center;
-  width: 100%;      
-  display: table;
+  width: 100%;
+  float:center;
+  z-index:150;
+  box-shadow: 0 0 15px #4f5b66;
+
 }
 .desktop-menu li {
 display: inline;
@@ -627,15 +630,14 @@ border-right: 1px solid #fff;
   position: relative;    
 }
 .container-1 input#search{
-  width: 200px;
+  width: 150px;
   height: 25px;
   background: white;
   border: none;
   font-size: 10pt;
-  float: left;
   color: black;
   font-family: Andale Mono, monospace;
-  padding-left: 45px;
+  padding-left: 15px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 100px;

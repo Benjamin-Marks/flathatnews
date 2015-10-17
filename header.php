@@ -44,7 +44,6 @@
 		</nav>
 
   		<nav class="desktop-menu" role="navigation">
-			<div class="container">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">News</a></li>
@@ -52,15 +51,16 @@
 					<li><a href="#">Variety</a></li>
 					<li><a href="#">Sports</a></li>
 					<li><a href="#">Videos</a></li>
+				
+				 	<li><div class="box">
+        			 	<div class="container-1">
+        			 	<span class="icon"><i class="fa fa-search"></i></span>
+             				<input type="search" id="search" placeholder="Search..." />
+              				</div>  
+              				</div></li>
 				</ul>
-				 <div class="box">
-        			 <div class="container-1">
-        			 <span class="icon"><i class="fa fa-search"></i></span>
-             			<input type="search" id="search" placeholder="Search..." />
-              			</div>  
-              			</div>
-        			</div>
-				</nav>
+   
+		</nav>
 
 		<script type="text/javascript">
 			//Script for loading the mobile dropdown menu
