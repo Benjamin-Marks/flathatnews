@@ -591,7 +591,7 @@ textarea {
 }
 .desktop-menu {
 
-  height: 87px;
+  height: 72px;
   width: 100%;
   list-style-type:none;
   text-align:center;
@@ -639,11 +639,10 @@ border-right: 1px solid #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 100px;
-  border: 2px solid #dadada;
+  border: 2px solid #bbbbbb;
   border-radius: 7px;
   outline: none;
-  box-shadow: 0 0 15px #9ecaed;
-  border-color: #9ecaed;;
+  box-shadow: 0 0 5px #aaaaaa;
  }
 
 .container-1 icon{
