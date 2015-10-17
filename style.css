@@ -590,7 +590,7 @@ textarea {
 	width: 100%;
 }
 .desktop-menu {
-
+  position:relative;
   height: 72px;
   width: 100%;
   list-style-type:none;
@@ -600,6 +600,13 @@ textarea {
   box-shadow: 0 0 15px #4f5b66;
 
 }
+
+.desktop-menu-scrolled {
+  position:fixed;
+  top:0px;
+  width: 100%;
+}
+
 .desktop-menu li {
 display: inline;
 line-height: 70px;
