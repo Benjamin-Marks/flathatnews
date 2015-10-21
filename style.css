@@ -590,12 +590,12 @@ textarea {
 	width: 100%;
 }
 .desktop-menu {
-  width: 10%;
+  width: 100%;
   list-style-type:none;
   text-align:center;
   float:center;
   z-index:150;
- 
+  box-shadow: 0 0 15px #4f5b66;
 
 }
 
