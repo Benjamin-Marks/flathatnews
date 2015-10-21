@@ -590,18 +590,16 @@ textarea {
 	width: 100%;
 }
 .desktop-menu {
-  position:relative;
-  height: 72px;
-  width: 100%;
+  width: 10%;
   list-style-type:none;
   text-align:center;
   float:center;
   z-index:150;
-  box-shadow: 0 0 15px #4f5b66;
+ 
 
 }
 
-.desktop-menu-scrolled {
+.fixed {
   position:fixed;
   top:0px;
   width: 100%;
