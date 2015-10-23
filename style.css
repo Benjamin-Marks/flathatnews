@@ -591,6 +591,7 @@ textarea {
 }
 .desktop-menu {
   width: 100%;
+  display: table;
   list-style-type:none;
   text-align:center;
   float:center;
@@ -605,12 +606,16 @@ textarea {
   width: 100%;
 }
 
-.desktop-menu li {
-display: inline;
-line-height: 70px;
-text-align: center;
-border-right: 1px solid #fff;
- margin-left:50px;    
+.desktop-menu ul {
+  display: table-row;
+  line-height: 70px;
+ float:center;
+  border-right: 1px solid #000;
+  width: 50%;
+}
+
+.desktop-menu ul li {
+  display: table-cell;
 }
 
 .desktop-menu ul li a {
