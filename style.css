@@ -589,6 +589,15 @@ textarea {
 	clear: both;
 	width: 100%;
 }
+
+@media all and (min-width: 1px) and (max-width:701px) {
+	.desktop-menu {
+		display:none;
+	}
+}
+
+@media all and (min-width:701px) {
+
 .desktop-menu {
   width: 100%;
   display: table;

@@ -12,7 +12,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<script type="text/javascript" src="/js/scrolleffect.js"></script>
+<script type="text/javascript" href="<?php echo get_template_directory_uri();?>/js/scrolleffect.js"></script>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
