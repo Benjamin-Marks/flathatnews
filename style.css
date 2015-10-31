@@ -596,25 +596,19 @@ textarea {
 	}
 }
 
-@media all and (min-width:701px) {
-
-td {
-   width: 50px;
-}
-
-tr {
-   width:50px;
-}
+@media all and (min-width:700px) {
 
 .desktop-menu {
   width: 100%;
-  display: table;
+height:10%;
+padding-top:10px;
+padding-bottom:10px;
   list-style-type:none;
   text-align:center;
   float:center;
   z-index:150;
-padding: 10px;
   box-shadow: 0 0 15px #4f5b66;
+
 
 }
 
@@ -625,15 +619,18 @@ padding: 10px;
 }
 
 .desktop-menu ul {
-
  float:center;
-  display: table-row;
-  border-right: 1px solid #000;
-  width: 50%;
+  display: inline;
+margin-left:0%;
+margin-right:0%;
 }
 
 .desktop-menu ul li {
-display:table-cell;
+float:center;
+display:inline;
+margin-left: 2%;
+margin-right: 2%;
+
 }
 
 .desktop-menu ul li a {
@@ -650,7 +647,6 @@ display:table-cell;
     width:32%
 }
 .container-1{
-  width: 300px;
   vertical-align: middle;
   white-space: nowrap;
   position: relative;    

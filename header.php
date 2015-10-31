@@ -46,17 +46,16 @@
 
   		<nav class="desktop-menu" role="navigation">
 				<ul>
-					<li style="width="50px;"><a href="#">Home</a></li>
+					<li><a href="#">Home</a></li>
 					<li><a href="#">News</a></li>
 					<li><a href="#">Opinions</a></li>
 					<li><a href="#">Variety</a></li>
 					<li><a href="#">Sports</a></li>
 					<li><a href="#">Videos</a></li>
-				
 				 	<li>
-        			 	<div class="container-1">
+        				<div class="container-1">
         			 	<span class="icon"><i class="fa fa-search"></i></span>
-             				<input type="search" id="search" placeholder="Search..." />
+             				<input type="search" id="search" placeholder="Search" />
               				  
               				</div></li>
 				</ul>
