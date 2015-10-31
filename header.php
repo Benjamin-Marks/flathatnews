@@ -46,7 +46,7 @@
 
   		<nav class="desktop-menu" role="navigation">
 				<ul>
-					<li><a href="#">Home</a></li>
+					<li style="width="50px;"><a href="#">Home</a></li>
 					<li><a href="#">News</a></li>
 					<li><a href="#">Opinions</a></li>
 					<li><a href="#">Variety</a></li>
