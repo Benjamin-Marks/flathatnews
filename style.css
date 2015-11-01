@@ -605,6 +605,7 @@ padding-top:10px;
 padding-bottom:10px;
   list-style-type:none;
   text-align:center;
+  background-color:#ffffff;
   float:center;
   z-index:150;
   box-shadow: 0 0 15px #4f5b66;
@@ -615,6 +616,7 @@ padding-bottom:10px;
 .fixed {
   position:fixed;
   top:0px;
+  background-color:#ffffff;
   width: 100%;
 }
 

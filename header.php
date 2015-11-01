@@ -12,14 +12,16 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<script type="text/javascript" href="<?php echo get_template_directory_uri();?>/js/scrolleffect.js"></script>
+
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/fonts/icomoon.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" />
+<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/scrolleffect.js"></script>
 <?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
