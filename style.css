@@ -77,15 +77,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 			display:inline-block;
 		}
 
+		.mobile-menu ul {
+			list-style-type: none;
+			list-style: none;
+		}
+
 		.mobile-menu ul.active {
 			display:none;
+		}
+
+		.mobile-menu form.active {
+			display: none;
 		}
 
 		.mobile-menu ul:after {
 			width:0px;
 			height:0px;
 			position:absolute;
-			top:0%
+			top:0%;
 			left:22px;
 			content:'';
 			transform:translate(0%, -100%);
@@ -95,13 +104,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 			display:block;
 		}
 
+		.mobile-menu #mobile-toggle {
+			float: left;
+		}
+
+		.mobile-menu #mobile-search {
+			float: right;
+		}
+
 		.toggle-nav {
 			padding:5px;
 			float:left;
 			display:inline-block;
 			border-radius:3px;
-			background:#006600;
-			color:#FFD700;
 			font-size:20px;
 			transition:color linear 0.15s;
 		}

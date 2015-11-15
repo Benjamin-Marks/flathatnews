@@ -31,7 +31,17 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<nav class="mobile-menu" role="navigation">
-			<ul class="active">
+			<ul class = "mobile-headers">
+				<li id="mobile-toggle">
+					<a class="toggle-nav icon-menu" href="#"></a>
+				</li>
+				<li id="mobile-search" class="icon-search" ></li>
+			</ul>
+			<form class="search-form active">
+				<input type="text" placeholder="search for articles" />
+				<button>Search</button>
+			</form>
+			<ul class="dropdown active">
 				<li><a href="http://flathatnews.com/">Home</a></li>
 				<li><a href="http://flathatnews.com/category/news/">News</a></li>
 				<li><a href="http://flathatnews.com/category/variety/">Variety</a></li>
@@ -39,11 +49,7 @@
 				<li><a href="http://flathatnews.com/category/blogs/">Blogs</a></li>
 				<li><a href="http://flathatnews.com/category/opinions/">Opinions</a></li>
 			</ul>
-			<a class="toggle-nav" href="#">&#9776;</a>
-			<form class="search-form">
-				<input type="text" placeholder="search for articles">
-				<button>Search</button>
-			</form>
+
 		</nav>
 
   		<nav class="desktop-menu" role="navigation">
@@ -69,7 +75,7 @@
 			jQuery(document).ready(function() {
 				jQuery('.toggle-nav').click(function(e) {
 					jQuery(this).toggleClass('active');
-					jQuery('.mobile-menu ul').toggleClass('active');
+					jQuery('.mobile-menu .dropdown').toggleClass('active');
 	 				e.preventDefault();
 				});
 			});
