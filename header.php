@@ -61,14 +61,13 @@
 					<li><a href="#">Sports</a></li>
 					<li><a href="#">Videos</a></li>
 				 	<li>
-        				<div class="container-1">
-        			 	<span class="icon"><i class="fa fa-search"></i></span>
-             				<input type="search" id="search" placeholder="Search" />
-              				  
-              				</div></li>
-				</ul>
-   
-		</nav>
+        				<div class="container">
+    <form class="searchbox icon-search">
+        <input type="search" placeholder="Search" name="search" class="searchbox-input icon-search" onkeyup="buttonUp();" required>
+        <input type="submit" class="icon-search">
+        <span class="searchbox-icon icon-search"></span>
+    </form>
+</div>
 
 		<script type="text/javascript">
 			//Script for loading the mobile dropdown menu
