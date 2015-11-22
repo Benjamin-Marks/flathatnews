@@ -105,11 +105,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		}
 
 		.mobile-menu #mobile-toggle {
-			float: left;
+			position:absolute;
+			top:0%;
+			left:22px;
+			/*float: left;*/
+			
 		}
 
 		.mobile-menu #mobile-search {
-			float: right;
+			position:absolute;
+			top:0%;
+			right:22px;
+			/*float: right;*/
 		}
 
 		.toggle-nav {
