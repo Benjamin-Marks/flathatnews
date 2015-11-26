@@ -126,6 +126,47 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 			text-decoration:none;
 			color:#444444;
 		}
+		/* Instead of adding a border, we transition the background color */
+		.no-touch .nav ul li:nth-child(6n+1) a:hover,
+		.no-touch .nav ul li:nth-child(6n+1) a:active,
+		.no-touch .nav ul li:nth-child(6n+1) a:focus {
+			background: rgb(227, 119, 20);
+		}
+
+		.no-touch .nav li:nth-child(6n+2) a:hover,
+		.no-touch .nav li:nth-child(6n+2) a:active,
+		.no-touch .nav li:nth-child(6n+2) a:focus {
+			background: rgb(245, 160, 41);
+		}
+
+		.no-touch .nav li:nth-child(6n+3) a:hover,
+		.no-touch .nav li:nth-child(6n+3) a:active,
+		.no-touch .nav li:nth-child(6n+3) a:focus {
+			background: rgb(44, 168, 219);
+		}
+
+		.no-touch .nav li:nth-child(6n+4) a:hover,
+		.no-touch .nav li:nth-child(6n+4) a:active,
+		.no-touch .nav li:nth-child(6n+4) a:focus {
+			background: rgb(31, 120, 176);
+		}
+
+		.no-touch .nav li:nth-child(6n+5) a:hover,
+		.no-touch .nav li:nth-child(6n+5) a:active,
+		.no-touch .nav li:nth-child(6n+5) a:focus {
+			background: rgb(39, 70, 90);
+		}
+
+		.no-touch .nav li:nth-child(6n+6) a:hover,
+		.no-touch .nav li:nth-child(6n+6) a:active,
+		.no-touch .nav li:nth-child(6n+6) a:focus {
+			background: rgb(32, 54, 68);
+		}
+
+		.nav ul li {
+			transition: background 0.5s;
+		}	
+			
 		
 		.search-form {
 			margin:12px 0px 0px 20px;
